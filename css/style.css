@@ -34,7 +34,7 @@
 }
 
 .main-area {
-    margin-left: 12em;
+    margin-left: 13em;
 }
 
 #profile {
@@ -44,10 +44,11 @@
     flex-wrap: wrap;
 }
 #profile img {
-    width:50%
+    width:20%
 }
-#profile p {
+#profile a {
     font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
 }
 
 #projects {
