@@ -1,9 +1,10 @@
 #main-menu {
     background-color: white;
-    padding-top: 0px;
-	padding-left: 40px;
+    padding: 40px;
     color: #000000;
 	font-family: 'Roboto', sans-serif;
+    position: fixed;
+    height: 100%;
 }
 #main-menu a {
 	color: #707070;
@@ -42,7 +43,8 @@
 }
 
 #projects {
-    padding-top: 15px;
+    padding-top: 40px;
+    margin-left: 12em;
 }
 #project {
     padding-top: 5px;
