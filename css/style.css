@@ -5,6 +5,8 @@
 	font-family: 'Roboto', sans-serif;
     position: fixed;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 #main-menu a {
 	color: #707070;
