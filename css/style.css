@@ -20,9 +20,11 @@
 #main-menu .selected {
     color: #C67171;
 }
-#main-menu h1 {
+#main-menu a#name {
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 18px;
+    color: black
 }
 
 #home {
