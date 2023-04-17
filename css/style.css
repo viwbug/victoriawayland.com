@@ -36,7 +36,7 @@
 }
 
 .main-area {
-    margin-left: 13em;
+    margin-left: 22em;
 }
 
 #profile {
@@ -53,10 +53,6 @@
     font-size: 24pt;
 }
 
-#projects {
-    padding-top: 40px;
-    margin-left: 12em;
-}
 #project {
     padding-top: 5px;
     padding-left: 50px;
@@ -74,4 +70,9 @@
     object-fit: cover;
     margin: auto;
     border:2px solid #C67171; 
+}
+
+
+#project-page img {
+    width: 80%;
 }
