@@ -53,6 +53,10 @@
     font-size: 24pt;
 }
 
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
 #project {
     padding-top: 5px;
     padding-left: 50px;
@@ -64,12 +68,16 @@
     object-fit: cover;
     margin: 2px;
 }
-#project img:hover {
+#project:hover img {
     width: 200px;
     height: 150px;
     object-fit: cover;
     margin: auto;
     border:2px solid #C67171; 
+}
+#project a {
+    display: flex;
+    flex-direction: column;
 }
 
 
