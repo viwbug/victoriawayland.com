@@ -66,13 +66,12 @@
 #project img {
     width: 200px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
     margin: 2px;
 }
 #project:hover img {
     width: 200px;
     height: 150px;
-    object-fit: cover;
     margin: auto;
     border:2px solid #C67171; 
 }
