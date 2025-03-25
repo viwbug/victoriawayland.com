@@ -38,6 +38,8 @@
 .main-area {
     margin-left: 22em;
     padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #profile {
@@ -54,34 +56,35 @@
     font-size: 24pt;
 }
 
-#projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
 }
-#project {
-    padding-top: 5px;
+.project {
+    padding-top: 20px;
     padding-left: 50px;
-    display: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#project img {
+.project img {
     width: 200px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
     margin: 2px;
 }
-#project:hover img {
+.project:hover img {
     width: 200px;
     height: 150px;
-    object-fit: cover;
     margin: auto;
     border:2px solid #C67171; 
 }
-#project a {
+.project a {
     display: flex;
     flex-direction: column;
 }
 
 
-#project-page img {
+.project-page img {
     width: 50%;
 }
