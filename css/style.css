@@ -84,7 +84,10 @@
     flex-direction: column;
 }
 
+.project-page {
+    margin-left: 305px;
+}
 
 .project-page img {
-    width: 50%;
+    height: 100vh;
 }
